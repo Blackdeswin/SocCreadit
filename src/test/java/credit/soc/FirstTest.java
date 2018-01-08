@@ -16,7 +16,7 @@ public class FirstTest extends WebDriberSettings{
         String titile = chromeDriver.getTitle();
         Assert.assertTrue(titile.equals("Витрина займов"));
         //chromeDriver.findElement(By.id(""));
-        chromeDriver.findElement(By.className("f-form__group ff-group"));//.sendKeys("10000");
+      //  chromeDriver.findElement(By.className("f-form__group ff-group"));//.sendKeys("10000");
 
 
     }
